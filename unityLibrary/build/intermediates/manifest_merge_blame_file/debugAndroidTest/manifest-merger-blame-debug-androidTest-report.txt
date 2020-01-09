@@ -1,0 +1,113 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.unity3d.player.test" >
+4
+5    <uses-sdk
+5-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:5:5-74
+6        android:minSdkVersion="24"
+6-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:5:15-41
+7        android:targetSdkVersion="28" />
+7-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:5:42-71
+8
+9    <instrumentation
+9-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:11:5-15:73
+10        android:name="android.test.InstrumentationTestRunner"
+10-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:11:22-75
+11        android:functionalTest="false"
+11-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:14:22-52
+12        android:handleProfiling="false"
+12-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:13:22-53
+13        android:label="Tests for com.unity3d.player.test"
+13-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:15:22-71
+14        android:targetPackage="com.unity3d.player.test" />
+14-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:12:22-69
+15
+16    <uses-feature android:glEsVersion="0x00020000" />
+16-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:5-54
+16-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:13:19-51
+17
+18    <uses-permission android:name="android.permission.INTERNET" />
+18-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:5-67
+18-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:15:22-64
+19
+20    <uses-feature
+20-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:17:5-19:36
+21        android:name="android.hardware.touchscreen"
+21-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:18:9-52
+22        android:required="false" />
+22-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:19:9-33
+23    <uses-feature
+23-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:20:5-22:36
+24        android:name="android.hardware.touchscreen.multitouch"
+24-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:21:9-63
+25        android:required="false" />
+25-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:22:9-33
+26    <uses-feature
+26-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:23:5-25:36
+27        android:name="android.hardware.touchscreen.multitouch.distinct"
+27-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:24:9-72
+28        android:required="false" />
+28-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:25:9-33
+29
+30    <application android:debuggable="true" >
+30-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:7:5-9:19
+30-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:7:18-43
+31        <uses-library android:name="android.test.runner" />
+31-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:8:9-60
+31-->C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\tmp\manifest\androidTest\debug\manifestMerger1800693749159687141.xml:8:23-57
+32
+33        <activity
+33-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:28:9-41:20
+34            android:name="com.unity3d.player.UnityPlayerActivity"
+34-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:29:13-66
+35            android:configChanges="mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|uiMode|screenSize|smallestScreenSize|fontScale|layoutDirection|density"
+35-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:30:13-194
+36            android:hardwareAccelerated="false"
+36-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:31:13-48
+37            android:launchMode="singleTask"
+37-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:32:13-44
+38            android:screenOrientation="fullSensor"
+38-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:33:13-51
+39            android:theme="@style/UnityThemeSelector" >
+39-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:34:13-54
+40            <meta-data
+40-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:35:13-37:40
+41                android:name="unityplayer.UnityActivity"
+41-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:36:17-57
+42                android:value="true" />
+42-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:37:17-37
+43            <meta-data
+43-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:38:13-40:40
+44                android:name="android.notch_support"
+44-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:39:17-53
+45                android:value="true" />
+45-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:40:17-37
+46        </activity>
+47
+48        <meta-data
+48-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:43:9-45:33
+49            android:name="unity.splash-mode"
+49-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:44:13-45
+50            android:value="0" />
+50-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:45:13-30
+51        <meta-data
+51-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:46:9-48:36
+52            android:name="unity.splash-enable"
+52-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:47:13-47
+53            android:value="True" />
+53-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:48:13-33
+54        <meta-data
+54-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:49:9-51:50
+55            android:name="notch.config"
+55-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:50:13-40
+56            android:value="portrait|landscape" />
+56-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:51:13-47
+57        <meta-data
+57-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:52:9-54:68
+58            android:name="unity.build-id"
+58-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:53:13-42
+59            android:value="2f59c63e-7ca7-48b5-8333-25b071f285b0" />
+59-->[__tested_artifact__::unityLibrary] C:\Users\Marc\Desktop\Android64\unityLibrary\build\intermediates\library_manifest\debug\AndroidManifest.xml:54:13-65
+60    </application>
+61
+62</manifest>
